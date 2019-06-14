@@ -1,0 +1,78 @@
+/* @font-face {
+    font-family: 'iransans';
+    src: url('../fonts/IRANSansWeb.eot');
+    src: url('../fonts/IRANSansWeb.eot#iefix') format('embedded-opentype'),
+    url('../fonts/IRANSansWeb.woff') format('woff'),
+    url('../fonts/IRANSansWeb.ttf') format('truetype'),
+    url('../fonts/IRANSansWeb.svg#CartoGothicStdBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+body {
+  font-family: sans-serif;
+}
+a:hover,
+a:focus,
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+span,
+ul,
+li,
+a,
+small,
+form,
+button,
+div {
+  font-family: 'iransans';
+}
+[v-cloak] {
+  display: none;
+}
+.red {
+  color: red;
+}
+.bgc-blue {
+  background-color: blue;
+}
+.list-group {
+  padding: 0;
+}
+.complete {
+  padding: 2px;
+  color: white;
+  background-color: green;
+  border-radius: 6px;
+}
+.incomplete {
+  padding: 2px;
+  color: white;
+  background-color: brown;
+  border-radius: 6px;
+}
+.alert-dismissible .close {
+  position: relative;
+  top: -8px;
+  right: 5px;
+  color: inherit;
+}
+.clear {
+  clear: both;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-blue {
+  background-color: blue;
+}
+.navbar {margin-bottom: 20px;}
+.txt-green{color: green;}
+.txt-red{color:red;}
